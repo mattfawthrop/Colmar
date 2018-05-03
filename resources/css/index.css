@@ -1,0 +1,118 @@
+/* Universal Styles */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.flex {
+  display:flex;
+
+}
+div {
+  display: block;
+  border: 1px solid;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Header */
+
+header {
+  font-size: 24px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+}
+
+header nav {
+  font-size: 18px;
+  margin-right: 24px;
+}
+
+header .flex {
+  align-items: center;
+  Height: 64px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+nav a {
+  padding-left: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  padding-left: 24px;
+  align-items: center;
+}
+
+.logo img{
+  height: 50px;
+}
+
+/* banner */
+
+.banner {
+  padding-top: 64px;
+  background-color: #d9d8d9;
+}
+
+.banner-image {
+  max-width: 60%;
+  margin: 32px 24px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-message {
+  flex-direction: column;
+  align-items: center;
+  margin-right: 7.5%;
+  margin-left: 2%;
+  justify-content: space-around;
+}
+
+.banner-text {
+  text-align: left;
+}
+
+.banner-text p {
+  margin-top: 24px;
+  padding: 8px 0px;
+  width: 100%;
+  background-color: #4a4a4a;
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+  border: 2px solid #4a4a4a;
+  border-radius: 2px;
+}
+
+.banner h1 {
+  line-height: 3rem;
+}
+
+.banner h2 {
+  line-height: 2rem;
+}
