@@ -15,7 +15,7 @@ body {
 }
 div {
   display: block;
-  border: 1px solid;
+
 }
 
 h1 {
@@ -32,12 +32,11 @@ h2 {
 /* Header */
 
 header {
-  font-size: 24px;
+  font-size: 20px;
   position: fixed;
   z-index: 1;
   background-color: white;
   width: 100%;
-  border: 2px solid red;
   display: flex;
 }
 
@@ -69,6 +68,14 @@ nav a {
   height: 50px;
 }
 
+.logotext-academy {
+  color: #9a9b9a;
+}
+
+.logo-text-colmar {
+  font-weight: 600;
+}
+
 /* banner */
 
 .banner {
@@ -77,8 +84,8 @@ nav a {
 }
 
 .banner-image {
-  max-width: 60%;
-  margin: 32px 24px;
+  width: 60%;
+  margin: 32px 36px 32px 24px;
 }
 
 .banner img {
@@ -88,13 +95,14 @@ nav a {
 .banner-message {
   flex-direction: column;
   align-items: center;
-  margin-right: 7.5%;
-  margin-left: 2%;
+  width: 40%;
   justify-content: space-around;
+  color: #4a4a4a
 }
 
 .banner-text {
   text-align: left;
+  padding-right: 15%;
 }
 
 .banner-text p {
@@ -115,4 +123,71 @@ nav a {
 
 .banner h2 {
   line-height: 2rem;
+}
+
+/* Pratice Section */
+
+.practice-image-section {
+  width: 60%;
+  margin: 32px 36px 32px 24px;
+}
+
+.practice-image-section img {
+  width: 100%;
+}
+
+.practice h1 {
+  padding-top: 32px;
+  color: #4a4a4a;
+}
+
+.practice h6 {
+  color: #676768;
+  margin-bottom: 2rem;
+}
+
+.quote {
+  font-size: 14px;
+  color: #8a8a8b;
+  line-height: 1.5rem;
+  margin-bottom: 32px;
+}
+
+.practice-trio-section {
+  flex-direction: column;
+  margin-top: 16px;
+  width: 40%;
+}
+
+.trio-image {
+  float: left;
+  width: 40%;
+  padding: 16px 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.lecture {
+  background-color: #d9d8d9;
+}
+
+.trio-image img {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.trio-text {
+  width: 60%;
+  padding-left: 0rem;
+  line-height: 2rem;
+}
+
+.trio-text p{
+  color: #8a8a8b;
+}
+
+.trio-text a{
+  color: #7aa8de;
+  text-decoration: none;
 }
