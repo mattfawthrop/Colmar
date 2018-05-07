@@ -171,6 +171,54 @@ nav a {
   line-height: 2rem;
 }
 
+
+@media only screen and (max-width: 800px) and (min-width: 501px){
+  .banner .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-image {
+    width: 80%;
+  }
+
+  .banner-message {
+    width: 80%;
+  }
+
+  .banner-text {
+    margin-bottom: 1rem;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .banner .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-image {
+    width: 100%;
+    margin: 0;
+  }
+
+  .banner img{
+    object-fit: cover;
+    height: 250px;
+  }
+
+  .banner-message {
+    width: 90%;
+  }
+
+  .banner-text {
+    margin: 2rem 0;
+    padding-right: 0;
+  }
+}
+
+
 /* Pratice Section */
 
 .image-video-section {
@@ -214,6 +262,10 @@ nav a {
   margin-right: 5%;
 }
 
+.mobile-trio-image {
+  display: none;
+}
+
 .grey-pannel {
   background-color: #f5f5f5;
 }
@@ -250,10 +302,77 @@ nav a {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 800px) and (min-width: 501px) {
+
+  .practice .image-video-section {
+    display: none;
+  }
+
+  .practice .trio-section {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .practice {
+    background-color: #ffffff;
+  }
+
+  .grey-pannel {
+    background-color: #ffffff;
+  }
+
+  .practice .image-video-section {
+    display: none;
+  }
+
+  .practice .trio-section {
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+  }
+
+  .flex .trio-option {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .trio-image {
+    float: left;
+    width: 100%;
+    padding: 0 0 1rem 0;
+    margin: 0;
+  }
+
+  .desktop-trio-image {
+    display: none;
+  }
+
+  .mobile-trio-image {
+    display: block;
+  }
+
+  .trio-image img {
+    float: none;
+  }
+
+  .trio-text {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+
+}
+
 /* Learning Section */
 
 .learning {
   background-color: #f5f5f5;
+  border-top:
 }
 
 .heading {
@@ -295,11 +414,75 @@ nav a {
   line-height: 3rem;
 }
 
+@media only screen and (max-width: 800px) and (min-width: 501px) {
+
+  .learning-grid {
+    margin: 0 48px;
+  }
+
+  .grid-box {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .learning {
+    background-color: #f6f4f6;
+  }
+
+  .learning-grid {
+    margin: 0 32px;
+  }
+
+  .grid-box {
+    width: 100%;
+    background-color: #d9d8d9;
+    border: 2px solid #d9d8d9;
+    border-radius: 2px;
+  }
+
+  .grid-box:hover {
+    background-color: #ffffff;
+  }
+
+  .grid-box-image {
+    display: none;
+  }
+
+  .grid-box-text p {
+    display: none;
+  }
+
+
+}
+
 /* Thesis Section */
 
 .image-video-section video {
   width: 100%;
   margin-top: -1rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .thesis .trio-section {
+    display: none;
+  }
+
+  .thesis .image-video-section {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  .thesis .image-video-section h1 {
+    display: none;
+  }
+
+  .thesis .quote {
+    display: none;
+  }
+
 }
 
 /* Footer Section */
@@ -329,4 +512,17 @@ footer {
 
 .footer-nav a {
   color: #8a8a8b
+}
+
+@media only screen and (max-width: 500px) {
+
+  .footer-text {
+    border: 0;
+    padding-top: 2rem;
+  }
+
+  .footer-nav {
+    display: none;
+  }
+
 }
